@@ -16,7 +16,7 @@ st.title(':clipboard: REPORTE PROPIEDADES - INMOBILIARIA 2023') #Titulo del tabl
 st.subheader('Compañía WAC')
 st.markdown('##') #Para separar el titulo de los KPIs, se inserta un paragrafo usando un campo de markdown
                    
-archivo_excel = 'Datos.xlsx' #Nombre archivo a importar  xlsx' hace referencia a excel
+archivo_excel = 'https://github.com/WayarCarla/Reporte_Inmobiliaria/blob/main/DATOS.xlsx' #Nombre archivo a importar  xlsx' hace referencia a excel
 hoja_excel = 'Sheet1' #la hoja de excel que voy a importar
 
 df = pd.read_excel( 
